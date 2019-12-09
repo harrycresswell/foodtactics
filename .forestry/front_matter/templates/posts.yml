@@ -1,6 +1,6 @@
 ---
-label: Posts
-hide_body: false
+label: Recipe
+hide_body: true
 fields:
 - name: title
   type: text
