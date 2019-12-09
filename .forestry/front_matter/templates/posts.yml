@@ -1,0 +1,95 @@
+---
+label: Posts
+hide_body: false
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
+  description: Add a title for the post
+- name: date
+  type: datetime
+  label: Date
+  description: Set the date for when you are publishing
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
+- name: featuredImage
+  type: file
+  config:
+    maxSize: 250
+  label: Feature Image
+  description: Set the featured image for the list view and post header
+- name: introduction
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: html
+  label: Introduction
+  description: Add a summary to intro your post
+- name: tags
+  type: tag_list
+  default: []
+  label: Tags
+  description: Add some tags to categorise the post
+- name: serving
+  type: text
+  config:
+    required: false
+  label: Serving
+  description: Set the quantity or number of people the recipe serves
+- name: ingredient_list
+  type: field_group_list
+  fields:
+  - name: ingredients
+    type: field_group
+    config: {}
+    fields:
+    - name: ingredient
+      type: list
+      config:
+        use_select: false
+        min: 
+        max: 
+      label: Ingredient
+    label: Ingredients
+    description: Add the ingredient
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Ingredient List
+  description: Add the ingredients
+- name: tactic
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: html
+  label: Tactic
+  description: Add the tactic
+- name: image_group
+  type: field_group_list
+  fields:
+  - name: image
+    type: file
+    config:
+      maxSize: 250
+    label: Image
+    description: Add an image
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Images
+  description: Add as many images as you like
+pages:
+- src/posts/vegan-strawberry-tartlettes.md
