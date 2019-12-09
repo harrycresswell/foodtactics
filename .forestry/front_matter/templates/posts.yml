@@ -91,5 +91,3 @@ fields:
     labelField: 
   label: Images
   description: Add as many images as you like
-pages:
-- src/posts/vegan-strawberry-tartlettes.md
