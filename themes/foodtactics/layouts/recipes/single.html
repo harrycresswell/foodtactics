@@ -1,0 +1,29 @@
+{{ define "main" }}
+
+    <article id="content" class="Post">
+        <header class="PostHeader">
+            <h1 class="PostHeader-title">{{ .Title }}</h1>
+            <time class="dt-published" datetime="{{ .Date }}">{{ .Date.Format "Mon, Jan 2, 2006" }}</time>
+            {{ with .Params.description }}<h2 class="PostHeader-description">{{ . }}</h2>{{ end }}
+            <div class="Image">
+                <div class="Ratio Ratio--portrait">
+                <img
+                    data-src="{{ .Site.Params.cloudinary_url }}/w_auto,dpr_auto,c_scale,f_auto,q_auto/{{ .Params.featuredImage }}"
+                    class="cld-responsive lazyload" alt="{{ .Params.featuredImageAlt }}">
+                </div><!-- /.ImageRatio -->
+            </div><!-- /.Image -->
+        </header>
+        {{ with .Params.introduction }}
+            <section>{{ . | safeHTML }}</section>
+        {{ end }}
+         {{ with .Params.tactic }}
+            <h3>Tactic</h3>
+            <section>{{ . | safeHTML }}</section>
+        {{ end }}
+        {{ .Content }}
+        <footer>
+            {{ partial "post/tags.html" . }}
+        </footer>
+    </article><!--/.Content -->
+
+{{ end }}

@@ -1,0 +1,17 @@
+{{ define "main" }}
+
+    <article id="content" class="Post">
+        <header class="PostHeader">
+            <h1 class="PostHeader-title">{{ .Title }}</h1>
+            {{ with .Params.description }}<h2 class="PostHeader-description">{{ . }}</h2>{{ end }}
+        </header>
+        
+        {{ with .Params.introduction }}
+            <section>{{ . }}</section>
+        {{ end }}
+        {{ .Content }}
+        <footer>
+            {{ partial "post/tags.html" . }}
+        </footer>
+    </article><!--/.Content -->
+{{ end }}

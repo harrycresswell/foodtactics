@@ -1,0 +1,15 @@
+<!-- Load JS files independently -->
+{{ $cloudinary := resources.Get "js/cloudinary-core-shrinkwrap.min.js" }}
+{{ $lazysizes := resources.Get "js/lazysizes.js" }}
+<!-- Concat JS and generate app.js, force cache refresh -->
+{{ $scripts := slice $cloudinary $lazysizes | resources.Concat "app.js" | minify | fingerprint }}
+<!-- Load app.js and authenticate of hashed file -->
+<script type="text/javascript" src="{{ $scripts.Permalink }}" integrity="{{ $scripts.Data.Integrity }}" media="screen"></script>
+
+<script>
+    var cl = cloudinary.Cloudinary.new({
+      cloud_name: "foodtactics"
+    });
+    
+    cl.responsive();
+</script>

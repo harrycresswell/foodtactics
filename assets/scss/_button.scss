@@ -1,0 +1,10 @@
+.Button {
+  border: dotted 1px var(--color-link);
+  color: var(--color-link);
+  padding: var(--space);
+  text-decoration: none;
+
+  &:hover {
+    border: solid 1px var(--color-link);
+  }
+}

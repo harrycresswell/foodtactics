@@ -1,0 +1,34 @@
+{{ define "main" }}
+  <article id="content" class="Post">
+    <header class="PostHeader">
+        <h1 class="PostHeader-title">{{ .Title }}</h1>
+        <h2 class="visually-hidden">{{ .Description }}</h2>
+    </header>
+    <section class="PostBody">
+      {{ .Content }}
+    </section>
+  </article><!--/.Content -->
+  <section>
+    <ul class="PostList">
+    {{ range first 4 (where .Data.Pages "Params.featured" "eq" "true") }}
+      <li class="PostListItem">
+        <h3 class="PostListItem-title">
+          <a href="{{ .Permalink }}">{{ .Title }}</a>
+        </h3>
+        <time class="dt-published" datetime="{{ .Date }}">{{ .Date.Format "Mon, Jan 2, 2006" }}</time>
+        <a href="{{ .Permalink }}">
+          <div class="Image">
+            <div class="Ratio Ratio--portrait">
+              <img
+                data-src="{{ .Site.Params.cloudinary_url }}/w_auto,dpr_auto,c_scale,f_auto,q_auto/{{ .Params.featuredImage }}"
+                class="cld-responsive lazyload" alt="{{ .Params.featuredImageAlt }}">
+            </div><!-- /.ImageRatio -->
+          </div><!-- /.Image -->
+        </a>
+         {{ partial "post/tags.html" . }}
+      </li>
+    {{ end }}
+    </ul>
+  </section>
+  <a class="Button" href="/recipes/">All Recipes</a>
+{{ end }}

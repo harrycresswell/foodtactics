@@ -1,0 +1,64 @@
+baseurl = "http://localhost:1313/"
+theme="foodtactics"
+languageCode = "en"
+title = "Foodtactics"
+pluralizelisttitles = false
+
+# Enable for syntax highlighting
+# pygmentsUseClasses = true
+# pygmentsCodefences = true
+
+[params]
+  keywords = "Vegetarian, Foodblog, Vegan, Health, Cleaneats, Recipes"
+  description = "Tasty vegetarian recipies and the tactic behind it"
+  strapline = "Tasty vegetarian recipies and the tactic behind it."
+  location = "London, UK"
+  postdescription = ""
+  pagesdescription = ""
+
+  # Set Cloudinary URL for image hosting
+  cloudinary_url = "https://res.cloudinary.com/foodtactics/image/upload/"
+  cloud_name = "foodtactics"
+  cloud_api_key = "754833864818737"
+
+[author]
+  name = "Harry Cresswell"
+  email = "studio@harrycresswell.com"
+  twitter = "https://twitter.com/harrycresswell"
+  github = "https://github.com/harrycresswell"
+  linkedin = "https://linkedin.com/in/harrycresswell/"
+
+[outputs]
+  home = [ "HTML", "RSS" ]
+
+[taxonomies]
+  tag = "tags"
+
+[outputFormats]
+[outputFormats.RSS]
+  mediatype = "application/rss"
+  baseName = "feed"
+  
+[permalinks]
+  recipies = "/:slug/"
+  page = "/:title/"
+
+# pluralizelisttitles = false
+
+# Enable Emojis
+enableEmoji = true
+
+[[menu.main]]
+  name = "Recipes"
+  url = "/recipes/"
+  weight = 5
+
+[[menu.main]]
+  name = "About"
+  url = "/about/"
+  weight = 10
+
+[[menu.main]]
+  name = "Contact"
+  url = "/contact/"
+  weight = 15

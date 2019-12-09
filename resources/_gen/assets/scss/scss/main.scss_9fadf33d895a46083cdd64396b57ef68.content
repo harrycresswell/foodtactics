@@ -1,0 +1,550 @@
+:root {
+  --color-dark: #222;
+  --color-body: #373a3c;
+  --color-light: #666;
+  --color-lighter: #888;
+  --color-lightest: #f5f5f5;
+  --color-link: #542BFF;
+  --color-selection: #EEEAFF;
+  --color-accent: #287088;
+  --color-white: #fff;
+  --font-default: -apple-system,BlinkMacSystemFont,segoe ui,Roboto,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;
+  --font-mono: "SF Mono", "Monaco", "Inconsolata", "Fira Mono", "Droid Sans Mono", "Source Code Pro", monospace;
+  --font-size-lg: 3.2em;
+  --font-size-md: 1.5em;
+  --font-size-default: 1.3rem;
+  --line-height-lg: 2;
+  --line-height-md: 1.5;
+  --line-height-sm: 1.4;
+  --line-height-xs: 1.2;
+  --space: 8px; }
+
+::selection {
+  color: var(--color-link);
+  background-color: var(--color-selection); }
+
+a {
+  color: var(--color-dark); }
+
+a:not([class]) {
+  color: var(--color-link); }
+  a:not([class]):hover {
+    background: var(--color-link);
+    color: var(--color-white);
+    text-decoration: none; }
+
+a:active,
+a:focus {
+  outline: dotted 1px var(--color-dark);
+  outline-offset: 2px; }
+
+a:not([class]):active,
+a:not([class]):focus {
+  outline: dotted 1px var(--color-link); }
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box; }
+
+/* Remove default padding and list style */
+ul[class],
+ol[class] {
+  padding: 0;
+  list-style: none; }
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0; }
+
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5; }
+
+a[class] {
+  text-decoration: none; }
+
+a:not([class]) {
+  text-decoration: underline;
+  text-decoration-skip-ink: auto;
+  cursor: pointer; }
+
+img {
+  max-width: 100%;
+  display: block; }
+
+input,
+button,
+textarea,
+select {
+  font: inherit; }
+
+body {
+  color: var(--color-body);
+  font-family: var(--font-default);
+  font-size: var(--font-size-default); }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--color-dark); }
+
+h1 {
+  font-size: var(--font-size-lg);
+  line-height: var(--line-height-xs);
+  margin: calc(var(--space) *8) 0; }
+
+h2 {
+  font-weight: 400;
+  font-size: var(--font-size-md);
+  line-height: var(--line-height-sm); }
+
+h3 {
+  font-size: var(--font-size-md);
+  line-height: var(--line-height-sm); }
+
+code {
+  font-family: var(--font-mono);
+  font-size: 16px; }
+
+p > code {
+  background: var(--color-lightest);
+  color: var(--color-accent);
+  font-size: 93%;
+  padding: 4px; }
+
+body {
+  margin: 0 auto;
+  max-width: 840px;
+  padding: calc(var(--space) *6) calc(var(--space) *3); }
+
+main {
+  margin: calc(var(--space) *18) 0; }
+  main * + * {
+    margin-top: calc(var(--space) *4); }
+  main section {
+    margin: calc(var(--space) *6) 0; }
+  main p,
+  main p + p {
+    max-width: 65ch;
+    margin-top: calc(var(--space) *2); }
+  main li {
+    margin: 0; }
+  main li[class]:not(:first-of-type) {
+    margin-top: calc(var(--space) *2); }
+
+nav ul {
+  display: flex;
+  justify-content: space-between; }
+  nav ul li:not(:first-of-type) {
+    margin-left: calc(var(--space) *2); }
+
+.SiteHead,
+footer {
+  display: flex;
+  justify-content: space-between; }
+
+.Button {
+  border: dotted 1px var(--color-link);
+  color: var(--color-link);
+  padding: var(--space);
+  text-decoration: none; }
+  .Button:hover {
+    border: solid 1px var(--color-link); }
+
+/* Background */
+.chroma {
+  background-color: #f9f9f9;
+  padding: 24px;
+  overflow: scroll; }
+
+/* Error */
+.chroma .err {
+  background-color: #a848a8; }
+
+/* LineTableTD */
+.chroma .lntd {
+  vertical-align: top;
+  padding: 0;
+  margin: 0;
+  border: 0; }
+
+/* LineTable */
+.chroma .lntable {
+  border-spacing: 0;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  width: auto;
+  overflow: auto;
+  display: block; }
+
+/* LineHighlight */
+.chroma .hl {
+  display: block;
+  width: 100%;
+  background-color: #ffffcc; }
+
+/* LineNumbersTable */
+.chroma .lnt {
+  margin-right: 0.4em;
+  padding: 0 0.4em 0 0.4em;
+  color: #7f7f7f; }
+
+/* LineNumbers */
+.chroma .ln {
+  margin-right: 0.4em;
+  padding: 0 0.4em 0 0.4em;
+  color: #7f7f7f; }
+
+/* Keyword */
+.chroma .k {
+  color: #2838b0; }
+
+/* KeywordConstant */
+.chroma .kc {
+  color: #444444;
+  font-style: italic; }
+
+/* KeywordDeclaration */
+.chroma .kd {
+  color: #2838b0;
+  font-style: italic; }
+
+/* KeywordNamespace */
+.chroma .kn {
+  color: #2838b0; }
+
+/* KeywordPseudo */
+.chroma .kp {
+  color: #2838b0; }
+
+/* KeywordReserved */
+.chroma .kr {
+  color: #2838b0; }
+
+/* KeywordType */
+.chroma .kt {
+  color: #2838b0;
+  font-style: italic; }
+
+/* NameAttribute */
+.chroma .na {
+  color: #388038; }
+
+/* NameBuiltin */
+.chroma .nb {
+  color: #388038; }
+
+/* NameBuiltinPseudo */
+.chroma .bp {
+  font-style: italic; }
+
+/* NameClass */
+.chroma .nc {
+  color: #287088; }
+
+/* NameConstant */
+.chroma .no {
+  color: #b85820; }
+
+/* NameDecorator */
+.chroma .nd {
+  color: #287088; }
+
+/* NameEntity */
+.chroma .ni {
+  color: #709030; }
+
+/* NameException */
+.chroma .ne {
+  color: #908828; }
+
+/* NameFunction */
+.chroma .nf {
+  color: #785840; }
+
+/* NameFunctionMagic */
+.chroma .fm {
+  color: #b85820; }
+
+/* NameLabel */
+.chroma .nl {
+  color: #289870; }
+
+/* NameNamespace */
+.chroma .nn {
+  color: #289870; }
+
+/* NameTag */
+.chroma .nt {
+  color: #2838b0; }
+
+/* NameVariable */
+.chroma .nv {
+  color: #b04040; }
+
+/* NameVariableGlobal */
+.chroma .vg {
+  color: #908828; }
+
+/* NameVariableMagic */
+.chroma .vm {
+  color: #b85820; }
+
+/* LiteralString */
+.chroma .s {
+  color: #b83838; }
+
+/* LiteralStringAffix */
+.chroma .sa {
+  color: #444444; }
+
+/* LiteralStringBacktick */
+.chroma .sb {
+  color: #b83838; }
+
+/* LiteralStringChar */
+.chroma .sc {
+  color: #a848a8; }
+
+/* LiteralStringDelimiter */
+.chroma .dl {
+  color: #b85820; }
+
+/* LiteralStringDoc */
+.chroma .sd {
+  color: #b85820;
+  font-style: italic; }
+
+/* LiteralStringDouble */
+.chroma .s2 {
+  color: #b83838; }
+
+/* LiteralStringEscape */
+.chroma .se {
+  color: #709030; }
+
+/* LiteralStringHeredoc */
+.chroma .sh {
+  color: #b83838; }
+
+/* LiteralStringInterpol */
+.chroma .si {
+  color: #b83838;
+  text-decoration: underline; }
+
+/* LiteralStringOther */
+.chroma .sx {
+  color: #a848a8; }
+
+/* LiteralStringRegex */
+.chroma .sr {
+  color: #a848a8; }
+
+/* LiteralStringSingle */
+.chroma .s1 {
+  color: #b83838; }
+
+/* LiteralStringSymbol */
+.chroma .ss {
+  color: #b83838; }
+
+/* LiteralNumber */
+.chroma .m {
+  color: #444444; }
+
+/* LiteralNumberBin */
+.chroma .mb {
+  color: #444444; }
+
+/* LiteralNumberFloat */
+.chroma .mf {
+  color: #444444; }
+
+/* LiteralNumberHex */
+.chroma .mh {
+  color: #444444; }
+
+/* LiteralNumberInteger */
+.chroma .mi {
+  color: #444444; }
+
+/* LiteralNumberIntegerLong */
+.chroma .il {
+  color: #444444; }
+
+/* LiteralNumberOct */
+.chroma .mo {
+  color: #444444; }
+
+/* Operator */
+.chroma .o {
+  color: #666666; }
+
+/* OperatorWord */
+.chroma .ow {
+  color: #a848a8; }
+
+/* Punctuation */
+.chroma .p {
+  color: #888888; }
+
+/* Comment */
+.chroma .c {
+  color: #888888;
+  font-style: italic; }
+
+/* CommentHashbang */
+.chroma .ch {
+  color: #287088;
+  font-style: italic; }
+
+/* CommentMultiline */
+.chroma .cm {
+  color: #888888;
+  font-style: italic; }
+
+/* CommentSingle */
+.chroma .c1 {
+  color: #888888;
+  font-style: italic; }
+
+/* CommentSpecial */
+.chroma .cs {
+  color: #888888;
+  font-style: italic; }
+
+/* CommentPreproc */
+.chroma .cp {
+  color: #289870; }
+
+/* CommentPreprocFile */
+.chroma .cpf {
+  color: #289870; }
+
+/* GenericDeleted */
+.chroma .gd {
+  color: #c02828; }
+
+/* GenericEmph */
+.chroma .ge {
+  font-style: italic; }
+
+/* GenericError */
+.chroma .gr {
+  color: #c02828; }
+
+/* GenericHeading */
+.chroma .gh {
+  color: #666666; }
+
+/* GenericInserted */
+.chroma .gi {
+  color: #388038; }
+
+/* GenericOutput */
+.chroma .go {
+  color: #666666; }
+
+/* GenericPrompt */
+.chroma .gp {
+  color: #444444; }
+
+/* GenericStrong */
+.chroma .gs {
+  font-weight: bold; }
+
+/* GenericSubheading */
+.chroma .gu {
+  color: #444444; }
+
+/* GenericTraceback */
+.chroma .gt {
+  color: #2838b0; }
+
+/* GenericUnderline */
+.chroma .gl {
+  text-decoration: underline; }
+
+/* TextWhitespace */
+.chroma .w {
+  color: #a89028; }
+
+/*------------------------------------*\
+    #COMPONENTS: IMAGE
+\*------------------------------------*/
+/**
+ * Component Block
+ */
+.Image figcaption {
+  line-height: 20px;
+  margin-top: var(--space); }
+
+.Image + p,
+p + .Image {
+  margin-top: calc(var(--space) *2); }
+
+/*------------------------------------*\
+    #COMPONENTS: RATIO
+\*------------------------------------*/
+/**
+ * A utility that provides you with a predictable aspect ratio
+ *
+ * 16:9: ratio wide
+ * 1:1: ratio square
+ * 3:2: ratio classic
+ */
+.Ratio {
+  background-color: #f6f6f6;
+  display: block;
+  position: relative; }
+
+.Ratio--landscape {
+  padding-bottom: 66.66667%; }
+
+.Ratio--portrait {
+  padding-bottom: 133.33333333333334%; }
+
+.Ratio--square {
+  padding-bottom: 100%; }
+
+.Ratio img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0; }
+
+/*------------------------------------*\
+    #COMPONENTS: LAZY
+\*------------------------------------*/
+/* Animate the lazyloading */
+.lazyload,
+.lazyloading {
+  opacity: 0; }
+
+.lazyloaded {
+  opacity: 1;
+  transition: opacity 300ms; }
+
+/*# sourceMappingURL=main.css.map */
