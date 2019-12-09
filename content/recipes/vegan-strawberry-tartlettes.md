@@ -39,7 +39,8 @@ tactic: Start by chopping the strawberries into small cubes and mix them in a bo
   the agar agar will set!)<br><br>Spread the cream on the cooled tart bases.<br><br>Put
   the strawberries on top and let the tartlets cool in the fridge for at least an
   hour.
-image_group: []
+image_group:
+- image: https://res.cloudinary.com/foodtactics/image/upload/f_auto,q_auto,w_auto,dpr_auto,c_scale/v1575915604/vegan-strawberry-tartlettes-2_tzx50z.jpg
 ingredient_list:
 - ingredient:
   - 45g oats
@@ -51,5 +52,18 @@ ingredient_list:
   - 4 tbsp coconut oil
   - 1 tbsp plant milk
   ingredient_list_title: 'Base:'
+- ingredient_list_title: 'Filling:'
+  ingredient:
+  - 200g coconut yoghurt (or other plant based alternative)
+  - 1 tbsp coconut sugar
+  - 1 tbsp agave nectar
+  - vanilla extract
+  - 1 tsp agar agar
+  - 50ml cold water
+  - 50ml plant milk
+- ingredient_list_title: ''
+  ingredient:
+  - ca. 200g fresh strawberries
+  - 1 tsp agave nectar
 
 ---
