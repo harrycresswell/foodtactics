@@ -1,9 +1,9 @@
 {{ define "main" }}
 
-    <article id="content" class="Post">
-        <header class="PostHeader">
-            <h1 class="PostHeader-title">{{ .Title }}</h1>
-            <time class="dt-published" datetime="{{ .Date }}">{{ .Date.Format "Mon, Jan 2, 2006" }}</time>
+    <article id="content" class="Recipe">
+        <header class="Recipe-header">
+            <h1 class="Recipe-headerTitle">{{ .Title }}</h1>
+            <time class="Recipe-headerDate dt-published" datetime="{{ .Date }}">{{ .Date.Format "Mon, Jan 2, 2006" }}</time>
             {{ with .Params.description }}<h2 class="PostHeader-description">{{ . }}</h2>{{ end }}
             <div class="Image">
                 <div class="Ratio Ratio--portrait">
@@ -13,15 +13,57 @@
                 </div><!-- /.ImageRatio -->
             </div><!-- /.Image -->
         </header>
+
         {{ with .Params.introduction }}
-            <section>{{ . | safeHTML }}</section>
+            <section class="Recipe-intro">
+                {{ . | safeHTML }}
+            </section>
         {{ end }}
-         {{ with .Params.tactic }}
-            <h3>Tactic</h3>
-            <section>{{ . | safeHTML }}</section>
+
+        {{ with .Params.tactic }}
+            <section class="Recipe-tactic">
+                <h3>Tactic</h3>
+                {{ . | safeHTML }}
+            </section>
         {{ end }}
-        {{ .Content }}
-        <footer>
+
+        {{ with .Params.serving }}
+            <strong>Serving</strong>
+            <span>
+                {{ . }}
+            </span>
+        {{ end }}
+    
+        {{ with .Params.ingredient_list }}
+            <section class="Recipe-ingredients">
+            {{ range . }}
+                {{ with .ingredient_list_title }} 
+                    <strong>{{ . }}</strong>
+                {{ end }}
+                <ul>
+                {{ range .ingredient }}
+                    <li>{{ . }}</li>
+                {{ end }}
+                </ul>
+            {{ end }}
+            </section>
+        {{ end }}
+
+        {{ with .Params.image_group }}
+        <section class="Recipe-images">
+            {{ range . }}
+             <div class="Image">
+                <div class="Ratio Ratio--portrait">
+                <img
+                    data-src="{{ .image }}"
+                    class="cld-responsive lazyload" alt="{{ .image }}">
+                </div><!-- /.ImageRatio -->
+            </div><!-- /.Image -->
+            {{ end }}
+        </section>
+        {{ end }}
+
+        <footer class="Recipe-footer">
             {{ partial "post/tags.html" . }}
         </footer>
     </article><!--/.Content -->
