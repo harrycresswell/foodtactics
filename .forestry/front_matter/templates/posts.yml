@@ -92,3 +92,5 @@ fields:
     labelField: 
   label: Images
   description: Add as many images as you like
+pages:
+- content/recipes/vegan-strawberry-tartlettes.md

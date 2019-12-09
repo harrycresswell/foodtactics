@@ -2,14 +2,14 @@
 title: Vegan Strawberry Tartlettes
 date: 2019-12-02
 slug: vegan-strawberry-tartlettes
-featured: "true"
+featured: 'true'
 tags:
 - Breakfast
 - Sweet Treats
 - Vegan
 serving: Makes 6 tartes
-featuredImage: "vegan-strawberry-tartlettes_jbawgd.jpg"
-featuredImageAlt: "Vegan Strawberry Tartlettes"
+featuredImage: vegan-strawberry-tartlettes_jbawgd.jpg
+featuredImageAlt: Vegan Strawberry Tartlettes
 introduction: The sun tickles on the skin and there’s a a breath of sun cream and
   happiness in the air – summer in Hamburg shows its pretty face.<br><br>Small stalls
   selling strawberries from the region line our neighbouring streets and in the cool
@@ -39,4 +39,17 @@ tactic: Start by chopping the strawberries into small cubes and mix them in a bo
   the agar agar will set!)<br><br>Spread the cream on the cooled tart bases.<br><br>Put
   the strawberries on top and let the tartlets cool in the fridge for at least an
   hour.
+image_group: []
+ingredient_list:
+- ingredient:
+  - 45g oats
+  - 55g almonds
+  - 1 tbsp coconut sugar
+  - 1 tbsp spelt flour (or more oats)
+  - "½ tsp baking powder"
+  - 1 pinch of salt
+  - 4 tbsp coconut oil
+  - 1 tbsp plant milk
+  ingredient_list_title: 'Base:'
+
 ---
