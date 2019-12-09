@@ -1,7 +1,21 @@
+
+html {
+  font-size: 16px;
+}
+@media screen and (min-width: 320px) {
+  html {
+    font-size: var(--font-size-default);
+  }
+}
+@media screen and (min-width: 1000px) {
+  html {
+    font-size: 20px;
+  }
+} 
+
 body {
   color: var(--color-body);
   font-family: var(--font-default);
-  font-size: var(--font-size-default);
 }
 
 h1,
@@ -11,12 +25,13 @@ h4,
 h5,
 h6 {
   color: var(--color-dark);
+  font-weight: var(--font-weight-medium);
 }
 
 h1 {
   font-size: var(--font-size-lg);
   line-height: var(--line-height-xs);
-  margin: calc(var(--space) *8) 0;
+  margin: calc(var(--space) *2) 0;
 
 }
 
