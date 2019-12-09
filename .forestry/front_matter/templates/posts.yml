@@ -47,19 +47,20 @@ fields:
 - name: ingredient_list
   type: field_group_list
   fields:
-  - name: ingredients
-    type: field_group
-    config: {}
-    fields:
-    - name: ingredient
-      type: list
-      config:
-        use_select: false
-        min: 
-        max: 
-      label: Ingredient
-    label: Ingredients
-    description: Add the ingredient
+  - name: ingredient_list_title
+    type: text
+    config:
+      required: false
+    label: Ingredient List Title
+    description: Add a title for the list of ingredients
+  - name: ingredient
+    type: list
+    config:
+      use_select: false
+      min: 
+      max: 
+    label: Ingredient
+    description: Add some ingredients
   config:
     min: 
     max: 
