@@ -1,4 +1,4 @@
-baseurl = "https://foodtactics.netlify.com"
+baseurl = "https://foodtactics.netlify.com/"
 theme="foodtactics"
 languageCode = "en"
 title = "Foodtactics"
@@ -40,7 +40,7 @@ pluralizelisttitles = false
   baseName = "feed"
   
 [permalinks]
-  recipies = "/:slug/"
+  recipes = "/:slug/"
   page = "/:title/"
 
 # pluralizelisttitles = false
