@@ -41,6 +41,7 @@ tactic: Start by chopping the strawberries into small cubes and mix them in a bo
   hour.
 image_group:
 - image: https://res.cloudinary.com/foodtactics/image/upload/f_auto,q_auto,w_auto,dpr_auto,c_scale/v1575915604/vegan-strawberry-tartlettes-2_tzx50z.jpg
+- image: https://res.cloudinary.com/foodtactics/image/upload/f_auto,q_auto,w_auto,dpr_auto,c_scale/v1575915604/vegan-strawberry-tartlettes-2_tzx50z.jpg
 ingredient_list:
 - ingredient:
   - 45g oats
