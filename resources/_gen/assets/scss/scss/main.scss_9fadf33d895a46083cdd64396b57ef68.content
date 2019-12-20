@@ -179,6 +179,21 @@ footer {
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   grid-gap: 1em; }
 
+.visually-hidden {
+  position: absolute !important;
+  top: -9999px !important;
+  left: -9999px !important; }
+
+.Social {
+  display: flex;
+  height: calc(var(--space)*3); }
+
+.Social-icon {
+  margin-right: 16px;
+  width: calc(var(--space)*3); }
+  .Social-icon a:hover {
+    background: unset; }
+
 .Button {
   border: dotted 1px var(--color-link);
   color: var(--color-link);
@@ -519,6 +534,10 @@ footer {
 .Image + p,
 p + .Image {
   margin-top: calc(var(--space) *2); }
+
+svg {
+  width: 100%;
+  height: auto; }
 
 /*------------------------------------*\
     #COMPONENTS: RATIO

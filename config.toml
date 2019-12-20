@@ -21,6 +21,12 @@ pluralizelisttitles = false
   cloud_name = "foodtactics"
   cloud_api_key = "754833864818737"
 
+  # set social links
+  socialInstagram = "https://www.instagram.com/foodtactics_/"
+  socialTwitter = "https://twitter.com/foodtactics/"
+  socialFacebook = "https://www.facebook.com/foodtactics/"
+  socialPintrest = ""
+
 [author]
   name = "Harry Cresswell"
   email = "studio@harrycresswell.com"
