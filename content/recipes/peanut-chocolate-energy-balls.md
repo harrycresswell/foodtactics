@@ -3,7 +3,7 @@ tags:
 - Sweet Treats
 - Vegan
 title: Peanut Chocolate Energy Balls
-date: 2019-12-19T23:06:00Z
+date: 2019-01-17T23:06:00Z
 featuredImage: https://res.cloudinary.com/foodtactics/image/upload/f_auto,q_auto,w_auto,dpr_auto,c_scale/v1576850679/Peanut-chocolate-energy-balls-001_inmnrk.jpg
 featured: false
 introduction: Do you know this feeling? This desire to eat something sweet? And then
