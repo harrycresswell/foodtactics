@@ -23,6 +23,10 @@ fields:
     maxSize: 250
   label: Feature Image
   description: Set the featured image for the list view and post header
+- name: featured
+  type: boolean
+  label: Featured
+  description: Do you want this recipe featured on the homepage?
 - name: introduction
   type: textarea
   default: ''
