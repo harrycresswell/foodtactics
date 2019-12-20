@@ -93,4 +93,5 @@ fields:
   label: Images
   description: Add as many images as you like
 pages:
+- content/recipes/vegan-chickpea-salad.md
 - content/recipes/vegan-strawberry-tartlettes.md
