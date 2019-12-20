@@ -2,7 +2,7 @@
 tags:
 - Breakfast
 title: All-time favourite Porridge Bowl
-date: 2019-12-19T23:00:00Z
+date: 2019-12-19T23:57:00Z
 featuredImage: https://res.cloudinary.com/foodtactics/image/upload/f_auto,q_auto,w_auto,dpr_auto,c_scale/v1576848986/porridge-bowl-with-chia-pudding-01_al0agi.jpg
 introduction: 'Especially in winter, when we wake up and it is still dark outside
   and way too cold to hatch out under the warm soft duvet, we need a motivation boost
@@ -37,6 +37,6 @@ tactic: Mix oat, water and plant milk in a pot and heat up over a low heat.<br><
 image_group:
 - image: https://res.cloudinary.com/foodtactics/image/upload/f_auto,q_auto,w_auto,dpr_auto,c_scale/v1576849213/porridge-bowl-with-chia-pudding-02_m1rlof.jpg
 - image: https://res.cloudinary.com/foodtactics/image/upload/f_auto,q_auto,w_auto,dpr_auto,c_scale/v1576849191/porridge-bowl-with-raspberries-03_ur5typ.jpg
-featured: false
+featured: true
 
 ---
