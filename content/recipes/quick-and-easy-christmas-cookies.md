@@ -3,7 +3,7 @@ tags:
 - Sweet Treats
 - Vegan
 title: Quick and easy Christmas cookies
-date: 2019-12-19T23:04:00Z
+date: 2018-12-13T23:04:00Z
 featuredImage: https://res.cloudinary.com/foodtactics/image/upload/f_auto,q_auto,w_auto,dpr_auto,c_scale/v1576849825/star-cookies-001_w4db4v.jpg
 featured: true
 introduction: The cookies melts and crumbles on your tongue. It leaves a hint of peanut
