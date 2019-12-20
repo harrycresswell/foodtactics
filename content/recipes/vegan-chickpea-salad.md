@@ -4,7 +4,7 @@ tags:
 - Vegan
 title: Vegan Chickpea Salad
 date: 2019-12-19T23:00:00Z
-featuredImage: https://res.cloudinary.com/foodtactics/image/upload/f_auto,q_auto,w_auto,dpr_auto,c_scale/v1576848020/vegan-chickpea-salad-001_asytne.jpg
+featuredImage: https://res.cloudinary.com/foodtactics/image/upload/f_auto,q_auto,w_auto,dpr_auto,c_scale/v1576848234/vegan-chickpea-salad-003_nevmby.jpg
 introduction: Crunchy, quick, tasty, vegan!<br><br>Chickpeas definitley belong on
   our list of all-time favourites. They are packed with plantbased protein and incredibly
   versatile. We love them in burger patties, curries, cakes, biscuits and salads.<br><br>No
