@@ -3,7 +3,7 @@ tags:
 - Sweet Treats
 - Vegan
 title: Chocolate Truffles
-date: 2019-12-19T23:10:00Z
+date: 2019-02-09T23:10:00Z
 featuredImage: https://res.cloudinary.com/foodtactics/image/upload/f_auto,q_auto,w_auto,dpr_auto,c_scale/v1576851509/vegan-chocolate-truffles-glass-side-view_np0tn2.jpg
 featured: false
 introduction: 'Chocolate truffles mhhhh. . . especially when it is cold outside, we
