@@ -30,5 +30,5 @@ tactic: Drain chickpeas and wash them.<br><br>Chop tomatos, cucumber and onion i
 image_group:
 - image: https://res.cloudinary.com/foodtactics/image/upload/f_auto,q_auto,w_auto,dpr_auto,c_scale/v1576848020/vegan-chickpea-salad-001_asytne.jpg
 - image: https://res.cloudinary.com/foodtactics/image/upload/f_auto,q_auto,w_auto,dpr_auto,c_scale/v1576848193/vegan-chickpea-salad-002_xiyfqc.jpg
-featured: "true"
+featured: true
 ---

@@ -2,7 +2,6 @@
 title: Vegan Strawberry Tartlettes
 date: 2019-12-02
 slug: vegan-strawberry-tartlettes
-featured: 'true'
 tags:
 - Breakfast
 - Sweet Treats
@@ -65,5 +64,5 @@ ingredient_list:
   ingredient:
   - ca. 200g fresh strawberries
   - 1 tsp agave nectar
-
+featured: true
 ---

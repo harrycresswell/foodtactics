@@ -7,7 +7,7 @@
   </article><!--/.Content -->
   <section>
     <ul class="PostList">
-    {{ range first 4 (where .Data.Pages "Params.featured" "eq" "true") }}
+    {{ range first 4 (where .Data.Pages "Params.featured" "eq" true) }}
       <li class="PostListItem">
         <h3 class="PostListItem-title">
           <a href="{{ .Permalink }}">{{ .Title }}</a>
