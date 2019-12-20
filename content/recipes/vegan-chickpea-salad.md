@@ -24,7 +24,11 @@ ingredient_list:
   - olive oil
   - salt
   - pepper
-tactic: ''
-image_group: []
+tactic: Drain chickpeas and wash them.<br><br>Chop tomatos, cucumber and onion into
+  small cubes and mix with the chickpeas.<br><br>Add a generous dash of olive oil,
+  coriander leaves and season with salt and pepper.<br><br>Done - That's it!
+image_group:
+- image: https://res.cloudinary.com/foodtactics/image/upload/f_auto,q_auto,w_auto,dpr_auto,c_scale/v1576848234/vegan-chickpea-salad-003_nevmby.jpg
+- image: https://res.cloudinary.com/foodtactics/image/upload/f_auto,q_auto,w_auto,dpr_auto,c_scale/v1576848193/vegan-chickpea-salad-002_xiyfqc.jpg
 
 ---
