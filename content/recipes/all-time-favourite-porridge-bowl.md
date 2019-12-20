@@ -2,7 +2,7 @@
 tags:
 - Breakfast
 title: All-time favourite Porridge Bowl
-date: 2019-12-19T23:57:00Z
+date: 2018-12-10T23:57:00Z
 featuredImage: https://res.cloudinary.com/foodtactics/image/upload/f_auto,q_auto,w_auto,dpr_auto,c_scale/v1576848986/porridge-bowl-with-chia-pudding-01_al0agi.jpg
 introduction: 'Especially in winter, when we wake up and it is still dark outside
   and way too cold to hatch out under the warm soft duvet, we need a motivation boost
