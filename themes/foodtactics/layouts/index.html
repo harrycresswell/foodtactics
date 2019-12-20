@@ -6,13 +6,9 @@
     </header>
   </article><!--/.Content -->
   <section>
-    <ul class="PostList">
+    <ul class="PostGrid">
     {{ range first 4 (where .Data.Pages "Params.featured" "eq" true) }}
       <li class="PostListItem">
-        <h3 class="PostListItem-title">
-          <a href="{{ .Permalink }}">{{ .Title }}</a>
-        </h3>
-        <time class="dt-published" datetime="{{ .Date }}">{{ .Date.Format "Mon, Jan 2, 2006" }}</time>
         <a href="{{ .Permalink }}">
           <div class="Image">
             <div class="Ratio Ratio--portrait">
@@ -22,6 +18,10 @@
             </div><!-- /.ImageRatio -->
           </div><!-- /.Image -->
         </a>
+        <h3 class="PostListItem-title">
+          <a href="{{ .Permalink }}">{{ .Title }}</a>
+        </h3>
+        <time class="dt-published" datetime="{{ .Date }}">{{ .Date.Format "Mon, Jan 2, 2006" }}</time>
          {{ partial "post/tags.html" . }}
       </li>
     {{ end }}

@@ -26,9 +26,9 @@ main {
     margin: 0;
   }
 
-  li[class]:not(:first-of-type) {
-    margin-top: calc(var(--space) *2);
-  }
+  // li[class]:not(:first-of-type) {
+  //   margin-top: calc(var(--space) *2);
+  // }
 }
 
 nav ul {
@@ -44,4 +44,10 @@ nav ul {
 footer {
   display: flex;
   justify-content: space-between;
+}
+
+.PostGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-gap: 1em;
 }

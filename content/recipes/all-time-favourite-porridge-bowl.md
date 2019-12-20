@@ -37,6 +37,6 @@ tactic: Mix oat, water and plant milk in a pot and heat up over a low heat.<br><
 image_group:
 - image: https://res.cloudinary.com/foodtactics/image/upload/f_auto,q_auto,w_auto,dpr_auto,c_scale/v1576849213/porridge-bowl-with-chia-pudding-02_m1rlof.jpg
 - image: https://res.cloudinary.com/foodtactics/image/upload/f_auto,q_auto,w_auto,dpr_auto,c_scale/v1576849191/porridge-bowl-with-raspberries-03_ur5typ.jpg
-featured: true
+featured: false
 
 ---

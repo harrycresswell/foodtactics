@@ -162,8 +162,6 @@ main {
     margin-top: calc(var(--space) *2); }
   main li {
     margin: 0; }
-  main li[class]:not(:first-of-type) {
-    margin-top: calc(var(--space) *2); }
 
 nav ul {
   display: flex;
@@ -175,6 +173,11 @@ nav ul {
 footer {
   display: flex;
   justify-content: space-between; }
+
+.PostGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-gap: 1em; }
 
 .Button {
   border: dotted 1px var(--color-link);
