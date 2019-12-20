@@ -4,7 +4,7 @@ tags:
 - Sweet Treats
 - Vegan
 title: Banana Pancakes
-date: 2019-11-30T23:07:00Z
+date: 2019-02-01T23:07:00Z
 featuredImage: https://res.cloudinary.com/foodtactics/image/upload/f_auto,q_auto,w_auto,dpr_auto,c_scale/v1576850923/vegan-banana-pancakes_nouf9w.jpg
 featured: false
 introduction: As much as we love a creamy porridge for breakfast, when we have more
