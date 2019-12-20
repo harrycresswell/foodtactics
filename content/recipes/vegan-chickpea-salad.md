@@ -3,7 +3,7 @@ tags:
 - Mains
 - Vegan
 title: Vegan Chickpea Salad
-date: 2019-12-19T23:00:00Z
+date: 2018-11-14T23:00:00Z
 featuredImage: https://res.cloudinary.com/foodtactics/image/upload/f_auto,q_auto,w_auto,dpr_auto,c_scale/v1576848234/vegan-chickpea-salad-003_nevmby.jpg
 introduction: Crunchy, quick, tasty, vegan!<br><br>Chickpeas definitley belong on
   our list of all-time favourites. They are packed with plantbased protein and incredibly
@@ -30,5 +30,6 @@ tactic: Drain chickpeas and wash them.<br><br>Chop tomatos, cucumber and onion i
 image_group:
 - image: https://res.cloudinary.com/foodtactics/image/upload/f_auto,q_auto,w_auto,dpr_auto,c_scale/v1576848020/vegan-chickpea-salad-001_asytne.jpg
 - image: https://res.cloudinary.com/foodtactics/image/upload/f_auto,q_auto,w_auto,dpr_auto,c_scale/v1576848193/vegan-chickpea-salad-002_xiyfqc.jpg
-featured: true
+featured: false
+
 ---
