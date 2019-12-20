@@ -8,7 +8,7 @@ tags:
 - Sweet Treats
 - Vegan
 serving: Makes 6 tartes
-featuredImage: vegan-strawberry-tartlettes_jbawgd.jpg
+featuredImage: https://res.cloudinary.com/foodtactics/image/upload/f_auto,q_auto,w_auto,dpr_auto,c_scale/v1575905210/vegan-strawberry-tartlettes_jbawgd.jpg
 featuredImageAlt: Vegan Strawberry Tartlettes
 introduction: The sun tickles on the skin and there’s a a breath of sun cream and
   happiness in the air – summer in Hamburg shows its pretty face.<br><br>Small stalls
@@ -40,7 +40,6 @@ tactic: Start by chopping the strawberries into small cubes and mix them in a bo
   the strawberries on top and let the tartlets cool in the fridge for at least an
   hour.
 image_group:
-- image: https://res.cloudinary.com/foodtactics/image/upload/f_auto,q_auto,w_auto,dpr_auto,c_scale/v1575915604/vegan-strawberry-tartlettes-2_tzx50z.jpg
 - image: https://res.cloudinary.com/foodtactics/image/upload/f_auto,q_auto,w_auto,dpr_auto,c_scale/v1575915604/vegan-strawberry-tartlettes-2_tzx50z.jpg
 ingredient_list:
 - ingredient:
