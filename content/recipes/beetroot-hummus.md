@@ -3,7 +3,7 @@ tags:
 - Snacks
 - Vegan
 title: Beetroot Hummus
-date: 2019-12-19T23:12:00Z
+date: 2019-02-22T23:12:00Z
 featuredImage: https://res.cloudinary.com/foodtactics/image/upload/f_auto,q_auto,w_auto,dpr_auto,c_scale/v1576851905/beetroot-hummus_niwken.jpg
 featured: false
 introduction: Hummus is one of the things we really always have in the fridge. After
