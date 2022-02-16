@@ -1,4 +1,4 @@
-baseurl = "https://foodtactics.com/"
+baseurl = "https://foodtactics.netlify.app/"
 theme="foodtactics"
 languageCode = "en"
 title = "Foodtactics"
